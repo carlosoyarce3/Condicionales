@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+
+button{
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.pages{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16%;
+}
+
+.pages button{
+    border-style: none;
+    padding: 10%;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+}
+
+.card{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.ejercicio1 img{
+    height: 80%;
+}
+
+.ejercicio2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stickers{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticker img{
+    height: 130px;
+    border: solid 6px white;
+    background-color: #fff;
+    margin-bottom: 10%;
+}
+
+.resultado{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+
+#verificar{
+    padding: 2% 5%;
+}
+
+.ejercicio3{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
